@@ -1,0 +1,332 @@
+body{
+    background: #FFFFFF;
+}
+
+li, a, h1,  button, p{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #667085;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    
+    
+}
+.logo a{
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.logo a:hover{
+    color: #8E2424;
+ }
+.nav__links, nav li{
+    display: inline-block;
+    padding: 0 10px;
+   
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+   color: #8E2424;
+}
+button{
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color:rgba(142, 36, 36, 1);
+    border: 1px solid #8E2424;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:rgba(142, 36, 36, 0.8);
+}
+/*main 1*/
+
+main{
+   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.main1{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.conteiner p:first-child,.conteiner  h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #8E2424;
+    padding: 10px 0;
+}
+.conteiner h1{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0;
+}
+main h1{
+    font-size: 48px;
+    color: black;
+}
+main p:last-child{
+font-size: 19px;
+line-height: 30px;
+}
+/* section 1*/
+.main2{
+   height: 280px;
+   display: flex;
+   align-items: flex-start;
+   gap: 10px 30px;
+   justify-content: space-evenly;
+   padding: 0 10%;
+}
+.main2 h1, h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.main2 h1{
+    color: #8E2424;
+}
+.projeto1, .projeto2, .projeto3, .projeto4{
+    
+    max-height: 250px;
+    max-width: 22%;
+   
+}
+.projeto1 h1, .projeto2 h1, .projeto3 h1, .projeto4 h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    line-height: -30px;
+    
+    
+    
+}
+.projeto1 h2, .projeto2 h2, .projeto3 h2, .projeto4 h2{
+    text-align: left;
+}
+/* main 3 */
+
+.main3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 96px 0;
+    
+}
+.vagasbutton{
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    background: rgba(142, 36, 36, 0.05);
+    color: rgba(142, 36, 36, 1);
+    font-size: 14px;
+    padding: 0 0;
+   border: none;
+    
+}
+.vagasbutton{
+    width: 130px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 16px;
+    line-height: 20px;
+}
+.vagas h1{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    padding: 30px 0;
+    line-height: 36px;
+}
+.vagas p{
+    line-height: 20px;
+}
+imgv{
+    width: 100%;
+   margin: 60px;
+    
+}
+.imgvagas{
+   height: 400px;
+   width: 100%;
+   margin: 10% 0;
+  
+ 
+}
+.caixa h1{
+    flex-direction: column;
+}
+.caixa{
+    width: 500px;
+    text-align: left;
+    margin: auto;
+}
+.caixas{
+    width: 600px;
+    height: 100px;
+    margin: 20px 30px 20px 30px;
+    border:1px solid rgba(234, 236, 240, 1);
+    border-radius: 16px ;
+    padding: 24px 24px 28px 24px;
+    box-sizing: border-box;
+}
+.caixa p{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:  #667085;
+    text-decoration: none;
+}
+.caixa h1{
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #101828;
+    margin-left: 30px;
+}
+.caixa h3{
+    font-family: "Inter",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #101828;
+
+}
+.dev-sof{
+    margin-top: 60px;
+}
+.caixa2{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5px ;
+    background-color:rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px;
+    margin-bottom: 64px;
+}
+.caixa2 h1{
+    font-weight: 600;
+    font-weight:none;
+    color: #8E2424;
+    font-size: 16px;
+}
+.caixa2 p,h1{
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: -2%;
+    font-weight: bold;
+    text-align: center;
+    color:  #101828;
+}
+.caixa2-dev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+.caixa2-dev h1{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    line-height: 10px;
+}
+.caixa2-dev p{
+font-size: 14px;
+font-weight: 400;
+}
+.img-devv{
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    background: url(../projeto/igor-ribeiro.png.jpg);
+    border-radius: 200px;
+    margin-bottom: 15px;
+}
+footer{
+    background: #F9FAFB;
+    height: 300px;
+    padding: 96px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    line-height: 44px;
+}
+.footer h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #667085;
+    line-height: 60px;
+}
+.cadastro{
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin: 10px auto;
+
+}
+input{
+    width: 350px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid  #D0D5DD;
+    margin-right: 10px;
+}
+.copy{
+    padding: 10px 0;
+    margin: auto;
+    color: #98A2B3;
+}
